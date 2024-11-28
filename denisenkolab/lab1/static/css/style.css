@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 3rem;
+    background-color: rgb(25,25,25);
+    color: rgb(214, 214, 214);
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    /* place-content: center; */
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
