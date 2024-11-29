@@ -11,6 +11,7 @@ body {
     min-height: 100vh;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     /* place-content: center; */
     justify-content: center;
     align-items: center;
@@ -22,4 +23,29 @@ h1 {
 
 p {
     text-align: center;
+}
+
+main {
+    flex-grow: 1;
+    display: grid;
+    place-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #81dbb8;
+}
+
+a:hover {
+    opacity: .85;
+}
+
+nav {
+    width: 100vw;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
 }
