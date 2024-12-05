@@ -9,7 +9,7 @@ body {
     background-color: rgb(25,25,25);
     color: rgb(214, 214, 214);
     min-height: 100vh;
-    height: 100vh;
+    /*height: 100vh;*/
     display: flex;
     flex-direction: column;
     /* place-content: center; */
@@ -27,8 +27,8 @@ p {
 
 main {
     flex-grow: 1;
-    display: grid;
-    place-content: center;
+    /*display: grid;
+    place-content: center;*/
 }
 
 a {
@@ -48,4 +48,17 @@ ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+}
+
+.post p {
+    margin: 1% 5%;
+    font-size: 2rem;
+    text-align: justify;
+    
+}
+
+.post h2 {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 2.5rem;
 }

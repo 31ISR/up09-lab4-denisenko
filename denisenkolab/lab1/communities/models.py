@@ -1,6 +1,6 @@
 from django.db import models
 
-class Post(models.Model):
+class Community(models.Model):
     name = models.TextField(max_length=75)
     description = models.TextField(max_length=150)
     slug = models.SlugField()
@@ -8,5 +8,5 @@ class Post(models.Model):
     free = models.BooleanField()
 
     def __str__(self):
-        return self.title
+        return self.name
 # Create your models here.
