@@ -17,8 +17,10 @@
                 <li><a href="{% url 'posts:list' %}">Посты</a></li>
                 <li><a href="{% url 'communities:list' %}">Сообщества</a></li>
                 <li></li>
+                
                 <li>
                     {% if user.is_authenticated %}
+                    <li><a href="{% url 'posts:new-post' %}">Новый пост</a></li>
                         <form class="logout" action="{% url 'users:logout' %}" method="post">
                             {% csrf_token %}
                             <button title="User Logout">Выйти</button>
